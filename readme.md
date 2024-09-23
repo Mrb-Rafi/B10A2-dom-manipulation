@@ -4,7 +4,7 @@
 
 ## Design
 
-- **Navbar** - completed: Create a visually appealing navbar with the following structure:
+- **Navbar** - <span style="color: green;">completed</span>: Create a visually appealing navbar with the following structure:
   - Logo positioned in the middle.
   - "Blog" button on the left.
   - Account balance with a coin icon on the right.
