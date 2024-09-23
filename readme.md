@@ -2,22 +2,14 @@
 
 ## <img width=30px src="assets/logo.png"/> DONATE BANGLADESH
 
-## Key Rule
-
-- Do not ask about mark distribution in the group, as it will not be provided.
-- Do not post assignment feedback after receiving it. If you encounter issues or have complaints, please join a support session for discussion.
-- Avoid using "lorem ipsum" text. Use relevant and meaningful content instead.
-- Feel free to modify the color or design, but ensure the design is visually appealing and professional.
-- You are **not allowed** to use any JavaScript library or framework for this assignment.
-
 ## Design
 
-- **Navbar**: Create a visually appealing navbar with the following structure:
+- **Navbar** - completed: Create a visually appealing navbar with the following structure:
   - Logo positioned in the middle.
   - "Blog" button on the left.
   - Account balance with a coin icon on the right.
   - "Donation" and "History" buttons in the center (as per Figma).
-- **Donation Cards**: Create 3 donation cards with the following details:
+- **Donation Cards** - completed: Create 3 donation cards with the following details:
   - Image on the left.
   - Donation title.
   - Donation info.
@@ -50,7 +42,7 @@
 
 ## Challenges
 
-- **Sticky Navbar**: Make the navbar sticky to the top of the page.
+- **Sticky Navbar** - completed: Make the navbar sticky to the top of the page.
 - **Blog Page**: Create a `blog.html` file and link it to the main page:
   - The blog page should contain 4 questions and their answers:
     1. What is the Document Object Model (DOM)?
