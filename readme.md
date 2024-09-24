@@ -20,7 +20,7 @@
 
 ## Functionalities
 
-- **Donation and History Button Functionality**:
+- **Donation and History Button Functionality** - ***completed***:
   - Clicking the "History" button will hide the donation data and display the history.
   - Clicking the "Donation" button will hide the history and display the donation data.
 - **Donation Functionality for Each Card** - ***completed***:
@@ -49,8 +49,8 @@
     2. How do you select an element from the DOM?
     3. What is event delegation in the context of the DOM, and why is it useful?
     4. How do you manipulate an element's attributes and styles using the DOM?
-- **Toggle Active Status**: Toggle the active status of the "Donation" and "History" buttons:
+- **Toggle Active Status** - ***completed***: Toggle the active status of the "Donation" and "History" buttons:
   - Change the button color to indicate when it's active.
 - **Static Modal** - ***completed***: Display a static modal instead of an alert on a successful donation.
-- **Reusable Functions**: Use at least 2 common functions.
+- **Reusable Functions** - ***completed***: Use at least 2 common functions.
 - **Responsive Design** - ***completed***: Ensure the application is responsive for different screen sizes.

@@ -30,10 +30,13 @@ function toggle(invokeBtn, actvID, deactvID) {
         document.getElementById(actvID).classList.add('hidden');
         document.getElementById(deactvID).classList.add('hidden');
 
-        console.log(document.getElementById(actvID).classList, document.getElementById(deactvID).classList);
-
         document.getElementById(actvID).classList.remove('hidden');
-        console.log(document.getElementById(deactvID).classList);
+
+        // active button color manipulation
+        document.getElementById("don-btn").classList.remove("bg-lime-300");
+        document.getElementById("his-btn").classList.remove("bg-lime-300");
+
+        document.getElementById(invokeBtn).classList.add("bg-lime-300");
     })
 }
 
