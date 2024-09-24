@@ -29,33 +29,36 @@
 
     </head>
     <body class="font-lexendt">
-        <header class="sticky top-0 z-50 backdrop-blur-lg md:h-28">
-            <nav class="w-4/5 m-auto">
-                <div class="navbar flex flex-col md:flex-row">
-                    <div class="navbar-start">
-                        <button id="blog-btn" class="btn w-24 bg-lime-300">Blog</button>
-                    </div>
-                    <div class="navbar-center gap-4">
-                        <img src="assets/logo.png" alt="" />
-                        <p class="font-bold">Donate Bangladesh</p>
-                    </div>
-                    <div class="navbar-end gap-2">
-                        <img src="assets/coin.png" alt="" />
-                        <div>
-                            <span id="total-balance">50000</span>
-                            <span>BDT</span>
+        <header class="sticky top-0 z-50 backdrop-blur-lg">
+            <div class="bg-yellow-50 bg-opacity-80 pb-5">
+                <nav class="w-4/5 m-auto">
+                    <div class="navbar">
+                        <div class="navbar-start">
+                            <button id="blog-btn" class="btn w-24 bg-lime-300">Blog</button>
+                        </div>
+                        <div class="navbar-center gap-4">
+                            <img src="assets/logo.png" alt="" />
+                            <p class="font-bold hidden md:flex">Donate Bangladesh</p>
+                        </div>
+                        <div class="navbar-end gap-2">
+                            <img src="assets/coin.png" alt="" />
+                            <div>
+                                <span id="total-balance">50000</span>
+                                <span>BDT</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </nav>
-        </header>
-        <main class="w-4/5 m-auto pt-20">
+                </nav>
+            </div>
 
+            
             <!-- buttons -->
-            <div class="flex justify-center gap-4 md:flex-row">
+            <div class="flex justify-center pt-16 pb-5 gap-4 md:flex-row">
                 <button id="don-btn" class="btn w-32 bg-lime-300">Donation</button>
                 <button id="his-btn" class="btn w-32">History</button>
             </div>
+        </header>
+        <main class="w-4/5 m-auto pt-20">
 
             <!-- cards -->
 
@@ -120,7 +123,7 @@
             </div>
 
             <!-- History -->
-            <div id="history-section" class="">
+            <div id="history-section" class="pb-5">
 
             </div>
 
