@@ -16,7 +16,7 @@
   - Current donation amount.
   - Input field for donation amount.
   - Button for submitting the donation.
-- **History Section**: Initially hidden and empty.
+- **History Section** - ***completed***: Initially hidden and empty.
 
 ## Functionalities
 
@@ -34,7 +34,7 @@
     - If the donation amount is greater than the account balance.
     - If the input field contains an invalid number.
     - If the input field is empty.
-- **History Section**:
+- **History Section** - ***completed***:
   - The history section will display transaction notifications, including:
     - Date and time of the transaction.
     - Donation amount.

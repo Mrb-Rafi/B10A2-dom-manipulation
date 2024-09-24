@@ -14,7 +14,7 @@ function donateBtn(btn, inpField, cardBalance, cardTitle) {
             const date = `Date : ${new Date().toUTCString()}`;
 
             newElement.innerHTML =
-            `<div class="card card-bordered p-10"><h2 class="font-bold">${money} Taka is Donated for ${campaignName}.</h2> <p>${date}</p></div>`;
+            `<div class="card card-bordered p-10 mt-5"><h2 class="font-bold">${money} Taka is Donated for ${campaignName}.</h2> <p>${date}</p></div>`;
             
             document.getElementById("history-section").appendChild(newElement);
         }
@@ -25,6 +25,15 @@ function donateBtn(btn, inpField, cardBalance, cardTitle) {
     })
 }
 
-function toggle() {
-    
+function toggle(invokeBtn, actvID, deactvID) {
+    document.getElementById(invokeBtn).addEventListener('click', function() {
+        document.getElementById(actvID).classList.add('hidden');
+        document.getElementById(deactvID).classList.add('hidden');
+
+        console.log(document.getElementById(actvID).classList, document.getElementById(deactvID).classList);
+
+        document.getElementById(actvID).classList.remove('hidden');
+        console.log(document.getElementById(deactvID).classList);
+    })
 }
+

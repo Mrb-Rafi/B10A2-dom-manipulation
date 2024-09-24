@@ -1,3 +1,6 @@
+// hiding history
+document.getElementById("history-section").classList.add('hidden');
+
 // linking the blog page
 document.getElementById("blog-btn").addEventListener('click', function(){
     window.location.href = "blog.html";
@@ -11,3 +14,8 @@ donateBtn("card2-btn", "card2-inp", "card2-balance", "card2-title");
 
 // adding functionalities for the third card
 donateBtn("card3-btn", "card3-inp", "card3-balance", "card3-title");
+
+// toggle
+toggle("don-btn", "cards-section", "history-section");
+toggle("his-btn", "history-section", "cards-section");
+
