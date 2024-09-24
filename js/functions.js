@@ -6,7 +6,12 @@ function donateBtn(btn, inpField, cardBalance) {
         if (!isNaN(money) && money > 0 && money <= balance) {
             document.getElementById("total-balance").innerText = balance - money;
             document.getElementById(cardBalance).innerText = parseFloat(document.getElementById(cardBalance).innerText) + money;
-    
+            
+            document.getElementById("my_modal_5").showModal();
+        }
+
+        else {
+            alert("invalid donation!");
         }
     })
 }
